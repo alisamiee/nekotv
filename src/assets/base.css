@@ -1,0 +1,25 @@
+:root {
+    --color-text: #d6d6d6;
+    --color-icon: #d6d6d6;
+    --color-background: #12071f;
+    --color-surface: #402e57;
+    --color-accent: #624393;
+    --color-button-primary: #be71e9;
+    --color-button-secondary: #dee8e8;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-text: #12071f;
+        --color-background: #e7e7e7;
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
