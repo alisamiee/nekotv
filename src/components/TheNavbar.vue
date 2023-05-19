@@ -1,10 +1,10 @@
 <template>
     <header>
         <nav>
-            <div class="brand">
+            <a href="/" class="brand">
                 <IconLogo class="logo" />
                 <h1>NekoTV</h1>
-            </div>
+            </a>
             <div>
                 <IconSearch class="icon" />
                 <IconBell class="icon" />
@@ -45,6 +45,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+a {
+    color: var(--color-icon);
 }
 
 .logo {
