@@ -20,9 +20,9 @@ export default {
 
 <style scoped>
 .view {
-    width: 100%;
+    width: 95%;
     max-width: 1800px;
-    margin: auto;
+    margin: 0 auto;
     flex: 1;
     display: flex;
     flex-direction: column;

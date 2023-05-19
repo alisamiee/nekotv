@@ -35,7 +35,7 @@ export default {
 
 <style scoped>
 nav {
-    width: 95%;
+    width: 100%;
     background-color: var(--color-surface);
     color: var(--color-icon);
     margin: 1rem auto;
