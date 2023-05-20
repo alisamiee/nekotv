@@ -30,7 +30,7 @@
 
 <style scoped>
 svg {
-    height: 8rem;
+    margin-top: -2px;
     width: 100%;
 }
 </style>
