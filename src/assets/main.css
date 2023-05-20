@@ -17,9 +17,31 @@ body {
     justify-content: center;
 }
 
+h2 {
+    font-weight: 700;
+}
+
 a {
     color: var(--color-accent);
     text-decoration: none;
+}
+
+button,
+.btn {
+    background-color: var(--color-button-primary);
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 50px;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.btn-secondary {
+    color: var(--color-button-secondary);
 }
 
 .icon {
