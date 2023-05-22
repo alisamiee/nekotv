@@ -1,7 +1,7 @@
 <template>
     <div class="card-holder">
         <div class="card">
-            <router-link to="/">
+            <router-link :to="{ name: 'watch', params: { id: show.id } }">
                 <div class="image">
                     <img :src="show.coverImage.local" :alt="show.title.english" />
                     <span v-if="show.type === 'TV'" class="episodes">{{ show.episodes }}</span>
