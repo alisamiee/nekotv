@@ -21,6 +21,10 @@ h2 {
     font-weight: 700;
 }
 
+b {
+    font-weight: 600;
+}
+
 a {
     color: var(--color-accent);
     text-decoration: none;
