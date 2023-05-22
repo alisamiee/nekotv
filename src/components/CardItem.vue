@@ -48,6 +48,16 @@ a,
     background-color: var(--color-surface);
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0px 0px 10px 0px var(--color-shadow);
+    -webkit-box-shadow: 0px 0px 10px 0px var(--color-shadow);
+    -moz-box-shadow: 0px 0px 10px 0px var(--color-shadow);
+}
+
+.card:hover .image {
+    transition: 0.7s;
+    filter: opacity(60%);
+    -webkit-filter: opacity(60%);
+    -moz-filter: opacity(60%); 
 }
 
 .image {
@@ -90,7 +100,7 @@ a,
 .card-holder {
     display: flex;
     width: 16.6666666667%;
-    padding: 0 8px;
+    padding: 8px;
     margin-bottom: 16px;
 }
 
