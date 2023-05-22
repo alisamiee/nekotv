@@ -1,6 +1,7 @@
 :root {
     --color-text: #d6d6d6;
     --color-white: #d6d6d6;
+    --color-disabled: #212121;
     --color-icon: #d6d6d6;
     --color-background: #12071f;
     --color-surface: #402e57;
