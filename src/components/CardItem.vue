@@ -84,7 +84,7 @@ a,
     justify-content: flex-start;
     align-items: center;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .card-holder {
