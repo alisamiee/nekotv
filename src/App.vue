@@ -2,6 +2,7 @@
     <div class="view">
         <TheNavbar />
         <main>
+            <router-view />
         </main>
     </div>
 
