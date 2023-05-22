@@ -109,7 +109,7 @@ export default {
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: var(--color-disabled);
 }
 
 .pagination .active {
