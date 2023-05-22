@@ -45,11 +45,15 @@ export default {
 .player,
 .playlist {
     border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px var(--color-shadow);
+    -webkit-box-shadow: 0px 0px 10px 0px var(--color-shadow);
+    -moz-box-shadow: 0px 0px 10px 0px var(--color-shadow);
 }
 
 .player {
     flex: 4 1 900px;
     overflow: hidden;
+    background-color: #000;
 }
 
 video {
