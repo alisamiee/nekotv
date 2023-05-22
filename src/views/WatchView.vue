@@ -7,7 +7,7 @@
             <ThePlaylist :show-id="+id" :get-video-url="getVideoUrl"/>
         </div>
     </div>
-    <WatchInfo/>
+    <WatchInfo :show-id="+id"/>
 </template>
 
 <script>

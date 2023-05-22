@@ -1,40 +1,58 @@
 <template>
     <div class="titles">
-        <h2>Demon Slayer: Kimetsu no Yaiba</h2>
-        <h3>something something japansese</h3>
+        <h2>{{ show.title.english }}</h2>
+        <h3>{{ show.title.romaji }}</h3>
     </div>
     <div class="show-info">
         <div class="general">
             <div class="image">
-                <img src="/cover/aot.jpg" alt="" />
+                <img :src="show.coverImage.local" :alt="show.title.english" />
             </div>
             <div class="description">
-                It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for
-                a living, finds his family slaughtered by a demon. To make matters worse, his
-                younger sister Nezuko, the sole survivor, has been transformed into a demon herself.
-                Though devastated by this grim reality, Tanjiro resolves to become a “demon slayer”
-                so that he can turn his sister back into a human, and kill the demon that massacred
-                his family.
+                {{ show.description }}
             </div>
         </div>
         <div class="details">
-            <p><b>Type: </b>TV</p>
-            <p><b>Episodes: </b>26</p>
-            <p><b>Status: </b>Finished Airing</p>
-            <p><b>Aired: </b>Apr 6, 2019 to Sep 28, 2019</p>
-            <p><b>Premiered: </b>Spring 2019</p>
-            <p><b>Broadcast: </b>Saturdays at 23:30 (JST)</p>
-            <p><b>Producers: </b>Aniplex, Shueisha</p>
-            <p><b>Studios: </b>ufotable</p>
-            <p><b>Genres: </b>Action, Fantasy</p>
-            <p><b>Rating: </b>R - 17+ (violence & profanity)</p>
-            <p><b>Score: </b>8.51</p>
+            <p><b>Type: </b>{{ show.type }}</p>
+            <p><b>Episodes: </b>{{ show.episodes }}</p>
+            <p><b>Status: </b>{{ show.status === 'FINISHED' ? 'Finished Airing' : 'Ongoing' }}</p>
+            <p><b>Aired: </b>{{ getShowAirDatesString(show.startDate, show.endDate) }}</p>
+            <p><b>Premiered: </b>{{ `${toTitleCase(show.season)} ${show.seasonYear}` }}</p>
+            <p><b>Genres: </b><span class="genre" v-for="(genre, index) in show.genres" :key="index">{{ genre }}</span></p>
+            <p><b>Score: </b>{{ (show.averageScore/10).toFixed(1) }}</p>
         </div>
     </div>
 </template>
 
 <script>
-export default {};
+import { mapState } from 'pinia';
+import { useInfoStore } from '@/stores/InfoStore';
+
+export default {
+    props: ['showId'],
+    data() {
+        return {
+            show: {}
+        };
+    },
+    computed: {
+        ...mapState(useInfoStore, ['getShow'])
+    },
+    created() {
+        this.show = this.getShow(this.showId);
+        console.log(this.show);
+    },
+    methods: {
+        getShowAirDatesString(startDate, endDate) {
+            return `${startDate.year}-${startDate.month}-${startDate.day} to ${endDate.year}-${endDate.month}-${endDate.day}`;
+        },
+        toTitleCase(str) {
+            str = str.toLowerCase();
+            str = str.charAt(0).toUpperCase() + str.slice(1);
+            return str;
+        },
+    }
+};
 </script>
 
 <style scoped>
@@ -83,6 +101,17 @@ export default {};
 .details {
     flex: 1 3 18%;
     line-height: 1.8rem;
+}
+
+.genre {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.5rem;
+    margin: 0.1rem 0.1rem;
+    background-color: var(--color-accent);
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 @media (max-width: 567px) {
