@@ -1,16 +1,17 @@
 <template>
     <MainCarousel />
     <CardGallery gallery-name="Top">
-        <CardItem card-title="Attack On Titan" img-url="/posters/134102l.jpg" episode-count="12" />
-        <CardItem card-title="Attack On Titan" img-url="/posters/134102l.jpg" episode-count="12" />
-        <CardItem card-title="Attack On Titan" img-url="/posters/134102l.jpg" episode-count="12" />
-        <CardItem card-title="Attack On Titan" img-url="/posters/134102l.jpg" episode-count="12" />
-        <CardItem card-title="Attack On Titan" img-url="/posters/134102l.jpg" episode-count="12" />
-        <CardItem card-title="Attack On Titan" img-url="/posters/134102l.jpg" episode-count="12" />
+        <CardItem
+            v-for="(show, index) in infoStore.shows"
+            :key="index"
+            :show="show"
+        />
     </CardGallery>
 </template>
 
 <script>
+import { mapStores } from 'pinia';
+import { useInfoStore } from '@/stores/InfoStore';
 import MainCarousel from '@/components/MainCarousel.vue';
 import CardGallery from '@/components/CardGallery.vue';
 import CardItem from '@/components/CardItem.vue';
@@ -20,6 +21,9 @@ export default {
         MainCarousel,
         CardGallery,
         CardItem
+    },
+    computed: {
+        ...mapStores(useInfoStore)
     }
 };
 </script>
