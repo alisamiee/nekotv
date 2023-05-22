@@ -2,7 +2,6 @@
     <div class="view">
         <TheNavbar />
         <main>
-            <MainCarousel/>
         </main>
     </div>
 
@@ -12,13 +11,11 @@
 <script>
 import TheNavbar from '@/components/TheNavbar.vue';
 import TheFooter from '@/components/TheFooter.vue';
-import MainCarousel from '@/components/MainCarousel.vue';
 
 export default {
     components: {
         TheNavbar,
         TheFooter,
-        MainCarousel
     }
 };
 </script>
@@ -35,9 +32,10 @@ export default {
 
 main {
     flex: 1;
-    margin: auto;
+    margin: 2rem auto;
     width: 95%;
     display: flex;
     flex-direction: column;
+    gap: 2rem;
 }
 </style>
