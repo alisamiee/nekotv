@@ -322,7 +322,7 @@
         "playlist": [
             {
                 "title": "Placeholder title",
-                "url": "/video/demo.mp4"
+                "url": "/video/demo-1.mp4"
             }
         ]
     },
@@ -331,7 +331,7 @@
         "playlist": [
             {
                 "title": "Placeholder title",
-                "url": "/video/demo.mp4"
+                "url": "/video/demo-2.mp4"
             }
         ]
     },
@@ -499,7 +499,7 @@
         "playlist": [
             {
                 "title": "Placeholder title",
-                "url": "/video/demo.mp4"
+                "url": "/video/demo-3.mp4"
             }
         ]
     },
