@@ -1,7 +1,7 @@
 <template>
     <div class="watch-container">
         <div class="player">
-            <video src="/video/demo-1.mp4" controls />
+            <video :src="videoUrl" controls />
         </div>
         <div class="playlist">
             <ThePlaylist :show-id="+id" :get-video-url="getVideoUrl"/>
@@ -19,9 +19,14 @@ export default {
         WatchInfo
     },
     props: ['id'],
+    data() {
+        return {
+            videoUrl: null
+        }
+    },
     methods: {
         getVideoUrl(url) {
-            console.log(url);
+            this.videoUrl = url;
         }
     },
 };
