@@ -92,6 +92,7 @@ export default {
     width: 2rem;
     height: 2rem;
     background-color: var(--color-accent);
+    color: var(--color-white)
 }
 
 .pagination {

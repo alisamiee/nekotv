@@ -10,6 +10,11 @@
     --color-button-secondary: #dee8e8;
 }
 
+:root.light-theme {
+    --color-text: #12071f;
+    --color-background: #e7e7e7;
+}
+
 @media (prefers-color-scheme: light) {
     :root {
         --color-text: #12071f;

@@ -33,4 +33,8 @@ svg {
     margin-top: -2px;
     width: 100%;
 }
+
+path {
+    fill: var(--color-background);
+}
 </style>

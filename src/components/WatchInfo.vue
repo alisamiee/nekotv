@@ -110,6 +110,7 @@ export default {
     padding: 0 0.5rem;
     margin: 0.1rem 0.1rem;
     background-color: var(--color-accent);
+    color: var(--color-white);
     border-radius: 20px;
     cursor: pointer;
 }

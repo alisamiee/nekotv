@@ -85,6 +85,7 @@ export default {
 }
 
 .slide-info .info h2 {
+    color: var(--color-white);
     font-size: 2rem;
     margin-bottom: 1rem;
 }

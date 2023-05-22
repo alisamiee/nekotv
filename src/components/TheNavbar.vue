@@ -8,7 +8,7 @@
             <div>
                 <IconSearch class="icon" />
                 <IconBell class="icon" />
-                <IconSun class="icon" />
+                <IconSun @click="toggleTheme" class="icon" />
                 <IconLogin class="icon" />
             </div>
         </nav>
@@ -29,6 +29,32 @@ export default {
         IconSearch,
         IconLogin,
         IconSun
+    },
+    methods: {
+        setTheme(theme) {
+            localStorage.setItem('user-theme', theme);
+            this.userTheme = theme;
+            document.documentElement.className = theme;
+        },
+        toggleTheme() {
+            const activeTheme = localStorage.getItem('user-theme');
+            if (activeTheme === 'light-theme') {
+                this.setTheme('dark-theme');
+            } else {
+                this.setTheme('light-theme');
+            }
+        },
+        getMediaPreference() {
+            const hasDarkPreference = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            return hasDarkPreference ? 'dark-theme' : 'light-theme';
+        },
+        getTheme() {
+            return localStorage.getItem('user-theme');
+        }
+    },
+    mounted() {
+        const initUserTheme = this.getTheme() || this.getMediaPreference();
+        this.setTheme(initUserTheme);
     }
 };
 </script>
@@ -58,7 +84,7 @@ a {
     margin-bottom: -0.5rem;
 }
 
-nav > div,
+nav>div,
 .brand {
     display: flex;
     align-items: center;

@@ -42,6 +42,7 @@ export default {
     border-collapse: collapse;
     border: 1px solid var(--color-accent);
     border-radius: 20px;
+    color: var(--color-white);
 }
 
 .table p {
