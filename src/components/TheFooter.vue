@@ -34,7 +34,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 footer {
     margin-top: auto;
     background-color: var(--color-surface);
