@@ -2,7 +2,7 @@
     <div class="carousel">
         <slot :currentSlide="currentSlide" />
 
-        <div class="navigate">
+        <div v-if="useNav" class="navigate">
             <div>
                 <IconLeft class="icon" @click="prevSlide" />
             </div>
@@ -27,6 +27,12 @@ import IconLeft from './icons/IconLeft.vue';
 import IconRight from './icons/IconRight.vue';
 
 export default {
+    props: {
+        useNav: {
+            type: Boolean,
+            default: false
+        }
+    },
     components: {
         IconLeft,
         IconRight
