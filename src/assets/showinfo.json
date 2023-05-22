@@ -1,0 +1,568 @@
+[
+    {
+        "id": 38000,
+        "type": "TV",
+        "title": {
+            "english": "Demon Slayer: Kimetsu no Yaiba",
+            "romaji": "Kimetsu no Yaiba"
+        },
+        "startDate": {
+            "year": 2019,
+            "month": 4,
+            "day": 6
+        },
+        "endDate": {
+            "year": 2019,
+            "month": 9,
+            "day": 28
+        },
+        "updatedAt": 1684703535,
+        "season": "SPRING",
+        "seasonYear": 2019,
+        "averageScore": 84,
+        "episodes": 26,
+        "status": "FINISHED",
+        "genres": ["Action", "Adventure", "Drama", "Fantasy", "Supernatural"],
+        "description": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a “demon slayer” so that he can turn his sister back into a human, and kill the demon that massacred his family.<br>\n<br>\n(Source: Crunchyroll)",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101922-YfZhKBUDDS6L.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101922-PEn1CTc93blC.jpg",
+            "local": "/cover/demon-slayer.jpg"
+        }
+    },
+    {
+        "id": 5114,
+        "type": "TV",
+        "title": {
+            "english": "Fullmetal Alchemist: Brotherhood",
+            "romaji": "Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST"
+        },
+        "startDate": {
+            "year": 2009,
+            "month": 4,
+            "day": 5
+        },
+        "endDate": {
+            "year": 2010,
+            "month": 7,
+            "day": 4
+        },
+        "updatedAt": 1684703538,
+        "season": "SPRING",
+        "seasonYear": 2009,
+        "averageScore": 90,
+        "episodes": 64,
+        "status": "FINISHED",
+        "genres": ["Action", "Adventure", "Drama", "Fantasy"],
+        "description": "\"In order for something to be obtained, something of equal value must be lost.\"\n<br><br>\nAlchemy is bound by this Law of Equivalent Exchange—something the young brothers Edward and Alphonse Elric only realize after attempting human transmutation: the one forbidden act of alchemy. They pay a terrible price for their transgression—Edward loses his left leg, Alphonse his physical body. It is only by the desperate sacrifice of Edward's right arm that he is able to affix Alphonse's soul to a suit of armor. Devastated and alone, it is the hope that they would both eventually return to their original bodies that gives Edward the inspiration to obtain metal limbs called \"automail\" and become a state alchemist, the Fullmetal Alchemist.\n<br><br>\nThree years of searching later, the brothers seek the Philosopher's Stone, a mythical relic that allows an alchemist to overcome the Law of Equivalent Exchange. Even with military allies Colonel Roy Mustang, Lieutenant Riza Hawkeye, and Lieutenant Colonel Maes Hughes on their side, the brothers find themselves caught up in a nationwide conspiracy that leads them not only to the true nature of the elusive Philosopher's Stone, but their country's murky history as well. In between finding a serial killer and racing against time, Edward and Alphonse must ask themselves if what they are doing will make them human again... or take away their humanity.\n<br><br>\n(Source: MAL Rewrite)",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5114-q0V5URebphSG.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx5114-KJTQz9AIm6Wk.jpg",
+            "local": "/cover/fullmetal-alchemist.jpg"
+        }
+    },
+    {
+        "id": 9253,
+        "type": "TV",
+        "title": {
+            "english": "Steins;Gate",
+            "romaji": "Steins;Gate"
+        },
+        "startDate": {
+            "year": 2011,
+            "month": 4,
+            "day": 6
+        },
+        "endDate": {
+            "year": 2011,
+            "month": 9,
+            "day": 14
+        },
+        "updatedAt": 1684703553,
+        "season": "SPRING",
+        "seasonYear": 2011,
+        "averageScore": 89,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": ["Drama", "Psychological", "Sci-Fi", "Thriller"],
+        "description": "Self-proclaimed mad scientist Okabe Rintarou lives in a small room in Akihabara, where he invents \"future gadgets\" with fellow lab members Shiina Mayuri, his air-headed childhood friend, and Hashida Itaru, an otaku hacker. The three pass the time by tinkering with their latest creation, a \"Phone Microwave\" that can be controlled through text messages. \n<br><br>\nThe lab members soon face a string of mysterious incidents that lead to a game-changing discovery: the Phone Microwave can send emails to the past and thus alter history. Adapted from the critically acclaimed visual novel by 5pb. and Nitroplus, Steins;Gate takes Okabe to the depths of scientific theory and human despair as he faces the dire consequences of changing the past.",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n9253-JIhmKgBKsWUN.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-7pdcVzQSkKxT.jpg",
+            "local": "/cover/steins-gate.jpg"
+        }
+    },
+    {
+        "id": 42938,
+        "type": "TV",
+        "title": {
+            "english": "Fruits Basket The Final",
+            "romaji": "Fruits Basket: The Final"
+        },
+        "startDate": {
+            "year": 2021,
+            "month": 4,
+            "day": 6
+        },
+        "endDate": {
+            "year": 2021,
+            "month": 6,
+            "day": 29
+        },
+        "updatedAt": 1684703588,
+        "season": "SPRING",
+        "seasonYear": 2021,
+        "averageScore": 90,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": ["Comedy", "Drama", "Psychological", "Romance", "Slice of Life", "Supernatural"],
+        "description": "After last season’s revelations, the Soma family moves forward, but the emotional chains that bind them are not easily broken. Unable to admit why she wants the cure, Tohru wrestles with the truth, aware that time is running out for someone close.\n<br><br>\nAnd a secret still lurks that could break another’s heart. But hope is not lost—a clue to the curse is found. Could their imprisonment’s end be near?<br><br>\n(Source: Funimation)<br><br>\n<i>Note: This season premiered on Funimation and AnimeLab on March 20, 2021. The Japanese broadcast started two weeks later on April 6, 2021.</i>",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124194-IB2X2IdALUYB.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124194-pWfBqp3GgjOx.jpg",
+            "local": "/cover/fruits-basket.jpg"
+        }
+    },
+    {
+        "id": 4181,
+        "type": "TV",
+        "title": {
+            "english": "Clannad: After Story",
+            "romaji": "CLANNAD: After Story"
+        },
+        "startDate": {
+            "year": 2008,
+            "month": 10,
+            "day": 3
+        },
+        "endDate": {
+            "year": 2009,
+            "month": 3,
+            "day": 27
+        },
+        "updatedAt": 1684699877,
+        "season": "FALL",
+        "seasonYear": 2008,
+        "averageScore": 87,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": ["Drama", "Romance", "Slice of Life", "Supernatural"],
+        "description": "A few months have passed since Tomoya declared his love to Nagisa, and his life keeps moving forward as he continues to meet a variety of new people, expanding his world in the process. While Tomoya's world continues to expand, his and Nagisa's relationship is entering a new phase, and neither of them is quite sure where it will take them. Through his relationship with Nagisa, Tomoya begins to understand the meaning and importance of family.<br>\n<br>\nBut as Tomoya and Nagisa begin a family of their own, they are faced with many hardships along the way in Clannad: After Story<br>\n<br>\n(Source: Sentai Filmworks, edited)<br>\n<br>\n<i>Note: Includes 2 un-numbered 'extra' and 'summary' episodes that aired at the end of the series.</i>",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4181.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4181-V1LCtX1rJgbR.png",
+            "local": "/cover/calannad.jpg"
+        }
+    },
+    {
+        "id": 37521,
+        "type": "TV",
+        "title": {
+            "english": "Vinland Saga",
+            "romaji": "VINLAND SAGA"
+        },
+        "startDate": {
+            "year": 2019,
+            "month": 7,
+            "day": 8
+        },
+        "endDate": {
+            "year": 2019,
+            "month": 12,
+            "day": 30
+        },
+        "updatedAt": 1684703528,
+        "season": "SUMMER",
+        "seasonYear": 2019,
+        "averageScore": 87,
+        "episodes": 24,
+        "status": "FINISHED",
+        "genres": ["Action", "Adventure", "Drama"],
+        "description": "Thorfinn is son to one of the Vikings' greatest warriors, but when his father is killed in battle by the mercenary leader Askeladd, he swears to have his revenge. Thorfinn joins Askeladd's band in order to challenge him to a duel, and ends up caught in the middle of a war for the crown of England.\n<br><br>\n(Source: Kodansha USA)",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101348-pivKKffCAwAY.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101348-msJS8z91mG0P.jpg",
+            "local": "/cover/vinland-saga.jpg"
+        }
+    },
+    {
+        "id": 33352,
+        "type": "Movie",
+        "title": {
+            "english": "Violet Evergarden",
+            "romaji": "Violet Evergarden"
+        },
+        "startDate": {
+            "year": 2018,
+            "month": 1,
+            "day": 11
+        },
+        "endDate": {
+            "year": 2018,
+            "month": 4,
+            "day": 5
+        },
+        "updatedAt": 1684703531,
+        "season": "WINTER",
+        "seasonYear": 2018,
+        "averageScore": 85,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": ["Drama", "Fantasy", "Slice of Life"],
+        "description": "A certain point in time, in the continent of Telesis. The great war which divided the continent into North and South has ended after four years, and the people are welcoming a new generation. Violet Evergarden, a young girl formerly known as “the weapon”, has left the battlefield to start a new life at CH Postal Service. There, she is deeply moved by the work of “Auto Memories Dolls”, who carry people's thoughts and convert them into words. Violet begins her journey as an Auto Memories Doll, and comes face to face with various people's emotions and differing shapes of love. There are words Violet heard on the battlefield, which she cannot forget. These words were given to her by someone she holds dear, more than anyone else. She does not yet know their meaning but she searches to find it.<br>\n<br>\n(Source: Anime News Network)",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21827-ROucgYiiiSpR.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21827-10F6m50H4GJK.png",
+            "local": "/cover/violet-evergarden.jpg"
+        }
+    },
+    {
+        "id": 431,
+        "type": "Movie",
+        "title": {
+            "english": "Howl‘s Moving Castle",
+            "romaji": "Howl no Ugoku Shiro"
+        },
+        "startDate": {
+            "year": 2004,
+            "month": 11,
+            "day": 20
+        },
+        "endDate": {
+            "year": 2004,
+            "month": 11,
+            "day": 20
+        },
+        "updatedAt": 1684703576,
+        "season": "FALL",
+        "seasonYear": 2004,
+        "averageScore": 84,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": ["Adventure", "Drama", "Fantasy", "Romance"],
+        "description": "Sophie, a quiet girl working in a hat shop, finds her life thrown into turmoil when she is literally swept off her feet by a handsome but mysterious wizard named Howl. The vain and vengeful Witch of the Waste, jealous of their friendship, puts a spell on Sophie. In a life-changing adventure, Sophie climbs aboard Howl's magnificent flying castle and enters a magical world on a quest to break the spell. <br><br>\r\n(Source: Disney)",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/431-fLBlvTgdqLCz.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx431-dDgk19xDZjVX.jpg",
+            "local": "/cover/howls-castle.jpg"
+        }
+    },
+    {
+        "id": 42310,
+        "type": "TV",
+        "title": {
+            "english": "CYBERPUNK: EDGERUNNERS",
+            "romaji": "Cyberpunk: Edgerunners"
+        },
+        "startDate": {
+            "year": 2022,
+            "month": 9,
+            "day": 13
+        },
+        "endDate": {
+            "year": 2022,
+            "month": 9,
+            "day": 13
+        },
+        "updatedAt": 1684703541,
+        "season": "SUMMER",
+        "seasonYear": 2022,
+        "averageScore": 85,
+        "episodes": 10,
+        "status": "FINISHED",
+        "genres": ["Action", "Drama", "Psychological", "Sci-Fi"],
+        "description": "An original anime series set in in the universe of <i>Cyberpunk 2077</i>.<br>\n<br>\n<i>CYBERPUNK: EDGERUNNERS</i> tells a standalone, 10-episode story about a street kid trying to survive in a technology and body modification-obsessed city of the future. Having everything to lose, he chooses to stay alive by becoming an edgerunner—a mercenary outlaw also known as a cyberpunk.<br>\n<br>\n(Source: CD PROJEKT RED)<br>\n<br>\n<i>Note: The first episode received a pre-screening at Anime Expo on July 2, 2022. The first 3 dubbed episodes were streamed on Twitch as part of a co-stream promotion on September 12, a day before the show’s premiere.</i>",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120377-c15oLS8CA31s.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx120377-GdoVPT4ZVxJn.jpg",
+            "local": "/cover/cyberpunk.jpg"
+        }
+    },
+    {
+        "id": 44511,
+        "type": "TV",
+        "title": {
+            "english": "Chainsaw Man",
+            "romaji": "Chainsaw Man"
+        },
+        "startDate": {
+            "year": 2022,
+            "month": 10,
+            "day": 12
+        },
+        "endDate": {
+            "year": 2022,
+            "month": 12,
+            "day": 28
+        },
+        "updatedAt": 1684703535,
+        "season": "FALL",
+        "seasonYear": 2022,
+        "averageScore": 85,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": ["Action", "Drama", "Horror", "Supernatural"],
+        "description": "Denji is a teenage boy living with a Chainsaw Devil named Pochita. Due to the debt his father left behind, he has been living a rock-bottom life while repaying his debt by harvesting devil corpses with Pochita.<br><br>\nOne day, Denji is betrayed and killed. As his consciousness fades, he makes a contract with Pochita and gets revived as \"Chainsaw Man\" — a man with a devil's heart.<br>\n<br>\n(Source: Crunchyroll)",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127230-o8IRwCGVr9KW.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127230-FlochcFsyoF4.png",
+            "local": "/cover/chainsaw-man.png"
+        }
+    },
+    {
+        "id": 1535,
+        "type": "TV",
+        "title": {
+            "english": "Death Note",
+            "romaji": "DEATH NOTE"
+        },
+        "startDate": {
+            "year": 2006,
+            "month": 10,
+            "day": 4
+        },
+        "endDate": {
+            "year": 2007,
+            "month": 6,
+            "day": 27
+        },
+        "updatedAt": 1684703527,
+        "season": "FALL",
+        "seasonYear": 2006,
+        "averageScore": 84,
+        "episodes": 37,
+        "status": "FINISHED",
+        "genres": ["Mystery", "Psychological", "Supernatural", "Thriller"],
+        "description": "Light Yagami is a genius high school student who is about to learn about life through a book of death. When a bored shinigami, a God of Death, named Ryuk drops a black notepad called a <i>Death Note</i>, Light receives power over life and death with the stroke of a pen. Determined to use this dark gift for the best, Light sets out to rid the world of evil… namely, the people he believes to be evil. Should anyone hold such power?<br>\n<br>\nThe consequences of Light’s actions will set the world ablaze.<br>\n<br>\n(Source: Viz Media)",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1535.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1535-lawCwhzhi96X.jpg",
+            "local": "/cover/death-note.jpg"
+        }
+    },
+    {
+        "id": 437,
+        "type": "Movie",
+        "title": {
+            "english": "Perfect Blue",
+            "romaji": "PERFECT BLUE"
+        },
+        "startDate": {
+            "year": 1998,
+            "month": 2,
+            "day": 28
+        },
+        "endDate": {
+            "year": 1998,
+            "month": 2,
+            "day": 28
+        },
+        "updatedAt": 1684703568,
+        "season": "WINTER",
+        "seasonYear": 1998,
+        "averageScore": 85,
+        "episodes": 1,
+        "status": "FINISHED",
+        "genres": ["Drama", "Horror", "Psychological", "Thriller"],
+        "description": "Rising pop star Mima has quit singing to pursue a career as an actress and model, but her fans aren’t ready to see her go... Encouraged by her managers, Mima takes on a recurring role on a popular TV show, when suddenly her handlers and collaborators begin turning up murdered. Harboring feelings of guilt and haunted by visions of her former self, Mima’s reality and fantasy meld into a frenzied paranoia. As her stalker closes in, in person and online, the threat he poses is more real than even Mima knows, in this iconic psychological thriller that has frequently been hailed as one of the most important animated films of all time.<br>\n<br>\n(Source: Shout! Factory)<br>\n<br>\n<i>Note: The film received an early premiere at the Fantasia Film Festival on August 5, 1997.</i>",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/437-3yMVTyN7gl2A.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx437-dvq9hcIyojVX.jpg",
+            "local": "/cover/perfect-blue.jpg"
+        }
+    },
+    {
+        "id": 30276,
+        "type": "TV",
+        "title": {
+            "english": "One-Punch Man",
+            "romaji": "One Punch Man"
+        },
+        "startDate": {
+            "year": 2015,
+            "month": 10,
+            "day": 5
+        },
+        "endDate": {
+            "year": 2015,
+            "month": 12,
+            "day": 21
+        },
+        "updatedAt": 1684703548,
+        "season": "FALL",
+        "seasonYear": 2015,
+        "averageScore": 83,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": ["Action", "Comedy", "Sci-Fi", "Supernatural"],
+        "description": "Saitama has a rather peculiar hobby, being a superhero, but despite his heroic deeds and superhuman abilities, a shadow looms over his life. He's become much too powerful, to the point that every opponent ends up defeated with a single punch.\n<br><br>\nThe lack of challenge has driven him into a state of apathy, as he watches his life pass by having lost all enthusiasm, at least until he's unwillingly thrust in the role of being a mentor to the young and revenge-driven Genos.   \n\n",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21087-sHb9zUZFsHe1.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21087-UV2tu6exrfXz.jpg",
+            "local": "/cover/one-punch-man.jpg"
+        }
+    },
+    {
+        "id": 16498,
+        "type": "TV",
+        "title": {
+            "english": "Attack on Titan",
+            "romaji": "Shingeki no Kyojin"
+        },
+        "startDate": {
+            "year": 2013,
+            "month": 4,
+            "day": 7
+        },
+        "endDate": {
+            "year": 2013,
+            "month": 9,
+            "day": 28
+        },
+        "updatedAt": 1684703540,
+        "season": "SPRING",
+        "seasonYear": 2013,
+        "averageScore": 84,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": ["Action", "Drama", "Fantasy", "Mystery"],
+        "description": "Several hundred years ago, humans were nearly exterminated by titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest of titans.<br><br>\r\nFlash forward to the present and the city has not seen a titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a colossal titan that appears out of thin air. As the smaller titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single titan and take revenge for all of mankind.<br><br>\r\n(Source: MangaHelpers) ",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16498-8jpFCOcDmneX.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx16498-C6FPmWm59CyP.jpg",
+            "local": "/cover/aot.jpg"
+        }
+    },
+    {
+        "id": 39587,
+        "type": "TV",
+        "title": {
+            "english": "Re:ZERO Season 2",
+            "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season"
+        },
+        "startDate": {
+            "year": 2020,
+            "month": 7,
+            "day": 8
+        },
+        "endDate": {
+            "year": 2020,
+            "month": 9,
+            "day": 30
+        },
+        "updatedAt": 1684703526,
+        "season": "SUMMER",
+        "seasonYear": 2020,
+        "averageScore": 82,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": ["Action", "Adventure", "Drama", "Fantasy", "Psychological", "Thriller"],
+        "description": "Even after dying countless times, Subaru finally ended the threat of the White Whale and defeated the Witch Cult's Sin Archbishop representing sloth, Petelgeuse Romaneeconti. But only shortly after overcoming a tragic ending and reuniting with his beloved Emilia, Subaru learns that Rem has been erased from this world, having fallen victim to the White Whale's Fog of Elimination in the midst of Subaru's death loop. With the White Whale now gone, Subaru and Emilia are forced to confront a reality they never dreamed would happen.<br><br>(Source: Crunchyroll)",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108632-yeLbrgPN4Oni.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108632-lQWnmw7XaNOK.jpg",
+            "local": "/cover/rezero-2.jpg"
+        }
+    },
+    {
+        "id": 50602,
+        "type": "TV",
+        "title": {
+            "english": "SPY x FAMILY Cour 2",
+            "romaji": "SPY×FAMILY Part 2"
+        },
+        "startDate": {
+            "year": 2022,
+            "month": 10,
+            "day": 1
+        },
+        "endDate": {
+            "year": 2022,
+            "month": 12,
+            "day": 24
+        },
+        "updatedAt": 1684703540,
+        "season": "FALL",
+        "seasonYear": 2022,
+        "averageScore": 83,
+        "episodes": 13,
+        "status": "FINISHED",
+        "genres": ["Action", "Comedy", "Slice of Life", "Supernatural"],
+        "description": "The second half of <i>SPYxFAMILY</i>.\n<br><br>\nWith Anya Forger successfully enrolled at the renowned Eden Academy, Operation Strix advances to its second phase. To investigate Ostanian politician Donovan Desmond, Anya must either befriend his son Damian or collect eight Stella Stars to become an Imperial Scholar. Fortunately, Anya has already acquired her first star. In celebration, her adoptive father, Loid, decides to fulfill her wish to adopt a dog.\n<br><br>\nDuring their canine search, Loid receives new orders from his superiors, who have found that a band of Berlint University students is plotting to assassinate Westalis' Minister Brantz using bombs worn by trained dogs. While Loid tries to stop their plans, Anya stumbles upon the terrorists' base of operations. There, she befriends a kindhearted, clairvoyant dog who the family later names Bond.\n<br><br>\nAlthough the Forgers continue to lead their individual lives in secrecy, the family—with a new fluffy addition—remains united through all of the unusual obstacles thrown their way.\n<br><br>\n(Source: MAL Rewrite)",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/142838-tynuN00wxmKO.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142838-ECZSqfknAqAT.jpg",
+            "local": "/cover/spyfam2.jpg"
+        }
+    },
+    {
+        "id": 50265,
+        "type": "TV",
+        "title": {
+            "english": "SPY x FAMILY",
+            "romaji": "SPY×FAMILY"
+        },
+        "startDate": {
+            "year": 2022,
+            "month": 4,
+            "day": 9
+        },
+        "endDate": {
+            "year": 2022,
+            "month": 6,
+            "day": 25
+        },
+        "updatedAt": 1684703541,
+        "season": "SPRING",
+        "seasonYear": 2022,
+        "averageScore": 86,
+        "episodes": 12,
+        "status": "FINISHED",
+        "genres": ["Action", "Comedy", "Slice of Life", "Supernatural"],
+        "description": "Everyone has a part of themselves they cannot show to anyone else.\n<br><br>\nAt a time when all nations of the world were involved in a fierce war of information happening behind closed doors, Ostania and Westalis had been in a state of cold war against one another for decades. The Westalis Intelligence Services' Eastern-Focused Division (WISE) sends their most talented spy, \"Twilight,\" on a top-secret mission to investigate the movements of Donovan Desmond, the chairman of Ostania's National Unity Party, who is threatening peace efforts between the two nations.\n<br><br>\nThis mission is known as \"Operation Strix.\" It consists of \"putting together a family in one week in order to infiltrate social gatherings organized by the elite school that Desmond's son attends.\" <br><br>\n\"Twilight\" takes on the identity of psychiatrist Loid Forger and starts looking for family members. But Anya, the daughter he adopts, turns out to have the ability to read people's minds, while his wife, Yor, is an assassin! With it being in each of their own interests to keep these facts hidden, they start living together while concealing their true identities from one another. <br>\nWorld peace is now in the hands of this brand-new family as they embark on an adventure full of surprises.\n<br><br>\n(Source: Crunchyroll)",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/140960-Z7xSvkRxHKfj.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-vN39AmOWrVB5.jpg",
+            "local": "/cover/spyfam.jpg"
+        }
+    },
+    {
+        "id": 31240,
+        "type": "TV",
+        "title": {
+            "english": "Re:ZERO Starting Life in Another World",
+            "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu"
+        },
+        "startDate": {
+            "year": 2016,
+            "month": 4,
+            "day": 4
+        },
+        "endDate": {
+            "year": 2016,
+            "month": 9,
+            "day": 19
+        },
+        "updatedAt": 1684703544,
+        "season": "SPRING",
+        "seasonYear": 2016,
+        "averageScore": 80,
+        "episodes": 25,
+        "status": "FINISHED",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Psychological",
+            "Romance",
+            "Thriller"
+        ],
+        "description": "In the story, Subaru Natsuki is an ordinary high school student who is lost in an alternate world, where he is rescued by a beautiful, silver-haired girl. He stays near her to return the favor, but the destiny she is burdened with is more than Subaru can imagine. Enemies attack one by one, and both of them are killed. He then finds out he has the power to rewind death, back to the time he first came to this world. But only he remembers what has happened since.<br>\n<br>\n(Source: Anime News Network)\n<br><br>\n<i>Notes:<br>\n- The first episode aired with a runtime of ~50 minutes as opposed to the standard 25 minute long episode.<br>\n- In the Winter 2020 season, Re:ZERO was rebroadcast and re-edited to fit into an hour time-slot. This edit included the first OVA and added slight modifications to certain scenes throughout. It also added an additional scene at the end of the final episode.</i>",
+        "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21355-f9SjOfEJMk5P.jpg",
+        "coverImage": {
+            "online": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21355-IHaS50pvLYd0.jpg",
+            "local": "/cover/rezero.jpg"
+        }
+    }
+]
