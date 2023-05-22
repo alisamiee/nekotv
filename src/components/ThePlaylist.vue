@@ -29,6 +29,9 @@ export default {
     computed: {
         ...mapState(useVideoStore, ['getPlaylist'])
     },
+    mounted() {
+        this.getVideoUrl(this.getPlaylist(this.showId).playlist[0].url)
+    },
 };
 </script>
 
