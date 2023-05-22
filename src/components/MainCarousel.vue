@@ -60,6 +60,9 @@ export default {
     background: var(--color-surface);
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0px 0px 10px 0px var(--color-shadow);
+    -webkit-box-shadow: 0px 0px 10px 0px var(--color-shadow);
+    -moz-box-shadow: 0px 0px 10px 0px var(--color-shadow);
 }
 
 .slide-info {
