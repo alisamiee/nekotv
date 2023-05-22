@@ -1,5 +1,9 @@
 @import './base.css';
 
+*::selection {
+    background-color: var(--color-accent);
+}
+
 body {
     color: var(--color-text);
     background-color: var(--color-background);
