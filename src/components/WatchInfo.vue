@@ -44,7 +44,7 @@ export default {};
 
 .titles h3 {
     font-size: 1.3rem;
-    opacity: 0.9;
+    opacity: 0.5;
 }
 
 .show-info {
