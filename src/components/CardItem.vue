@@ -1,32 +1,48 @@
 <template>
     <div class="card-holder">
-        <div class="card">
-            <div class="image">
-                <img :src="imgUrl" :alt="cardTitle" />
-                <span class="episodes">{{ episodeCount }}</span>
+            <div class="card">
+            <router-link to="/">
+                <div class="image">
+                    <img :src="show.coverImage.local" :alt="show.title.english" />
+                    <span v-if="show.type === 'TV'" class="episodes">{{ show.episodes }}</span>
+                </div>
+                <div class="card-title">{{ show.title.english }}</div>
+            </router-link>
             </div>
-            <div class="card-title">{{ cardTitle }}</div>
-        </div>
     </div>
 </template>
 
 <script>
+import defaultCover from '@/assets/images/defaultCover.png'
+
 export default {
     props: {
-        imgUrl: {
-            type: String,
-            required: true
-        },
-        cardTitle: {
-            type: String,
-            required: true
-        },
-        episodeCount: Number,
-    }
+        show: {
+            type: Object,
+            default(rawProps) {
+                return {
+                    title: {
+                        english: 'Show Title'
+                    },
+                    type: 'Movie',
+                    episodes: '1',
+                    coverImage: {
+                        local: defaultCover
+                    }
+                }
+            }
+        }
+    },
 };
 </script>
 
 <style scoped>
+a,
+.episodes,
+.card-title {
+    color: var(--color-white);
+}
+
 .card {
     width: 100%;
     background-color: var(--color-surface);
