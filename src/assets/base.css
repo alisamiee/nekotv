@@ -8,11 +8,14 @@
     --color-accent: #624393;
     --color-button-primary: #9537ca;
     --color-button-secondary: #dee8e8;
+    --color-shadow: rgba(0, 0, 0, 0.4);
 }
 
 :root.light-theme {
     --color-text: #12071f;
     --color-background: #e7e7e7;
+    --color-surface: #825db2;
+    --color-shadow: rgba(94,94,94,0.76)
 }
 
 @media (prefers-color-scheme: light) {
