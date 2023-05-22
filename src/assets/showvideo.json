@@ -103,15 +103,11 @@
     },
     {
         "id": 33352,
-        "playlist": [
-            "/video/demo.mp4"
-        ]
+        "playlist": ["/video/demo.mp4"]
     },
     {
         "id": 431,
-        "playlist": [
-            "/video/demo.mp4"
-        ]
+        "playlist": ["/video/demo.mp4"]
     },
     {
         "id": 42310,
@@ -166,9 +162,7 @@
     },
     {
         "id": 437,
-        "playlist": [
-            "/video/demo.mp4"
-        ]
+        "playlist": ["/video/demo.mp4"]
     },
     {
         "id": 30276,

@@ -16,7 +16,7 @@ export default {
     },
     props: {
         galleryName: String
-    },
+    }
 };
 </script>
 

@@ -21,11 +21,7 @@ export default {
         CardGallery,
         CardItem
     }
-}
-
-
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

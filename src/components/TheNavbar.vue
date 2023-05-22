@@ -28,7 +28,7 @@ export default {
         IconLogo,
         IconSearch,
         IconLogin,
-        IconSun,
+        IconSun
     }
 };
 </script>

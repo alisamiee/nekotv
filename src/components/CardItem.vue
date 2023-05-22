@@ -1,6 +1,6 @@
 <template>
     <div class="card-holder">
-            <div class="card">
+        <div class="card">
             <router-link to="/">
                 <div class="image">
                     <img :src="show.coverImage.local" :alt="show.title.english" />
@@ -8,12 +8,12 @@
                 </div>
                 <div class="card-title">{{ show.title.english }}</div>
             </router-link>
-            </div>
+        </div>
     </div>
 </template>
 
 <script>
-import defaultCover from '@/assets/images/defaultCover.png'
+import defaultCover from '@/assets/images/defaultCover.png';
 
 export default {
     props: {
@@ -29,10 +29,10 @@ export default {
                     coverImage: {
                         local: defaultCover
                     }
-                }
+                };
             }
         }
-    },
+    }
 };
 </script>
 
