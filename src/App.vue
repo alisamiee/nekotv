@@ -1,10 +1,9 @@
 <template>
-    <div class="view">
-        <TheNavbar />
-        <main>
-            <router-view />
-        </main>
-    </div>
+    <TheNavbar />
+
+    <main>
+        <router-view />
+    </main>
 
     <TheFooter />
 </template>
@@ -22,21 +21,19 @@ export default {
 </script>
 
 <style scoped>
-.view {
-    width: 95%;
-    max-width: 1800px;
-    margin: 0 auto;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
 main {
     flex: 1;
     margin: 2rem auto;
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+@media (max-width: 425px) {
+    main {
+        width: 98%;
+    }
+    
 }
 </style>
