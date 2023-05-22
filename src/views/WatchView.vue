@@ -1,10 +1,10 @@
 <template>
     <div class="watch-container">
         <div class="player">
-            <video src="/video/demo.mp4" controls />
+            <video src="/video/demo-1.mp4" controls />
         </div>
         <div class="playlist">
-            <ThePlaylist/>
+            <ThePlaylist :show-id="+id" :get-video-url="getVideoUrl"/>
         </div>
     </div>
     <WatchInfo/>
@@ -17,7 +17,13 @@ export default {
     components: {
         ThePlaylist,
         WatchInfo
-    }
+    },
+    props: ['id'],
+    methods: {
+        getVideoUrl(url) {
+            console.log(url);
+        }
+    },
 };
 </script>
 

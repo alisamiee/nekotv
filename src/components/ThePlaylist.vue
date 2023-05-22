@@ -4,15 +4,32 @@
             <p class="number">#</p>
             <p class="title">Title</p>
         </div>
-        <div class="row">
-            <p class="number">1</p>
-            <p class="title">look even more yo yo test amazing episode title</p>
+        <div v-for="(episode, index) in getPlaylist(showId).playlist" @click="getVideoUrl(episode.url)" class="row">
+            <p class="number">{{ index + 1 }}</p>
+            <p class="title">{{ episode.title }}</p>
         </div>
     </div>
 </template>
 
 <script>
-export default {};
+import { mapState } from 'pinia';
+import { useVideoStore } from '@/stores/VideoStore';
+
+export default {
+    props: {
+        showId: {
+            type: Number,
+            required: true
+        },
+        getVideoUrl: {
+            type: Function,
+            required: true
+        }
+    },
+    computed: {
+        ...mapState(useVideoStore, ['getPlaylist'])
+    },
+};
 </script>
 
 <style scoped>
@@ -34,6 +51,7 @@ export default {};
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .header,
