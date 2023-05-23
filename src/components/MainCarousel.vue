@@ -4,13 +4,13 @@
             <div v-show="currentSlide === index + 1" class="slide-info">
                 <div class="info">
                     <h2>{{ slide.title }}</h2>
-                    <a :href="slide.link" class="btn">
+                    <router-link :to="slide.link" class="btn">
                         <IconPlay class="icon" />
                         WATCH NOW
-                    </a>
+                    </router-link>
                 </div>
                 <div class="image">
-                    <img :src="`/${slide.image}`" :alt="`${slide.title}`" />
+                    <img :src="slide.image" :alt="`${slide.title}`" />
                 </div>
             </div>
         </TheSlide>
@@ -32,19 +32,19 @@ export default {
         return {
             carouselSlides: [
                 {
-                    title: 'banner 1',
-                    image: 'bg-1.png',
-                    link: '/1'
+                    title: 'Demon Slayer',
+                    image: '/banner-1.jpg',
+                    link: '/watch/38000'
                 },
                 {
-                    title: 'banner 2',
-                    image: 'bg-2.png',
-                    link: '/2'
+                    title: 'Violet Evergarden',
+                    image: '/banner-2.jpg',
+                    link: '/watch/33352'
                 },
                 {
-                    title: 'banner 3',
-                    image: 'bg-3.png',
-                    link: '/3'
+                    title: 'Cyberpunk: Edgerunners',
+                    image: '/banner-3.jpg',
+                    link: '/watch/42310'
                 }
             ]
         };
@@ -63,6 +63,10 @@ export default {
     box-shadow: 0px 0px 10px 0px var(--color-shadow);
     -webkit-box-shadow: 0px 0px 10px 0px var(--color-shadow);
     -moz-box-shadow: 0px 0px 10px 0px var(--color-shadow);
+}
+
+h2 {
+    text-shadow: 0px 0px 12px rgba(0,0,0,0.76);
 }
 
 .slide-info {
