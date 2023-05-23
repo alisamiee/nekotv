@@ -23,6 +23,7 @@ export default {
 <style scoped>
 main {
     flex: 1;
+    padding-top: 4rem;
     margin: 2rem auto;
     width: 90%;
     display: flex;

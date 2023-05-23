@@ -1,10 +1,10 @@
 <template>
     <header>
         <nav>
-            <a href="/" class="brand">
+            <router-link :to="{name: 'home'}" class="brand">
                 <IconLogo class="logo" />
                 <h1>NekoTV</h1>
-            </a>
+            </router-link>
             <div>
                 <IconSearch class="icon" />
                 <IconBell class="icon" />
@@ -61,7 +61,12 @@ export default {
 
 <style scoped>
 nav {
-    width: 100%;
+    position: fixed;
+    width: 95%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
     background-color: var(--color-surface);
     color: var(--color-icon);
     margin: 1rem auto;
@@ -71,6 +76,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px 0px 10px 0px var(--color-shadow);
+    -webkit-box-shadow: 0px 0px 10px 0px var(--color-shadow);
+    -moz-box-shadow: 0px 0px 10px 0px var(--color-shadow);
 }
 
 a {
@@ -97,5 +105,11 @@ nav>div,
 
 .brand {
     cursor: pointer;
+}
+
+@media (max-width: 425px) {
+    nav {
+        width: 99%;
+    } 
 }
 </style>
