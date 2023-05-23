@@ -18,13 +18,6 @@
     --color-shadow: rgba(94,94,94,0.76);
 }
 
-@media (prefers-color-scheme: light) {
-    :root {
-        --color-text: #12071f;
-        --color-background: #e7e7e7;
-    }
-}
-
 *,
 *::before,
 *::after {
