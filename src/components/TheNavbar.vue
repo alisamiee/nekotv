@@ -12,7 +12,8 @@
                 </div>
                 <!-- <IconBell class="icon" /> -->
                 <div class="other-icons">
-                    <IconSun @click="toggleTheme" class="icon" />
+                    <IconSun v-if="isDark" @click="toggleTheme" class="icon" />
+                    <IconMoon v-else @click="toggleTheme" class="icon" />
                     <IconLogin class="icon" />
                 </div>
             </div>
@@ -26,6 +27,7 @@ import IconSearch from './icons/IconSearch.vue';
 import IconBell from './icons/IconBell.vue';
 import IconLogin from './icons/IconLogin.vue';
 import IconSun from './icons/IconSun.vue';
+import IconMoon from './icons/IconMoon.vue'
 
 export default {
     components: {
@@ -33,7 +35,13 @@ export default {
         IconLogo,
         IconSearch,
         IconLogin,
-        IconSun
+        IconSun,
+        IconMoon
+    },
+    data() {
+        return {
+            isDark: true
+        }
     },
     methods: {
         setTheme(theme) {
@@ -45,8 +53,10 @@ export default {
             const activeTheme = localStorage.getItem('user-theme');
             if (activeTheme === 'light-theme') {
                 this.setTheme('dark-theme');
+                this.isDark = true;
             } else {
                 this.setTheme('light-theme');
+                this.isDark = false;
             }
         },
         getMediaPreference() {
