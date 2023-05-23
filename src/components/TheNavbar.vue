@@ -14,7 +14,9 @@
                 <div class="other-icons">
                     <IconSun v-if="isDark" @click="toggleTheme" class="icon" />
                     <IconMoon v-else @click="toggleTheme" class="icon" />
-                    <IconLogin class="icon" />
+                    <router-link to="/login" class="login">
+                        <IconLogin class="icon" />
+                    </router-link>
                 </div>
             </div>
         </nav>
@@ -160,7 +162,14 @@ nav>div,
 .search-container + div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 1rem;
+}
+
+a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
