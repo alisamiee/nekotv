@@ -86,10 +86,14 @@ export default {
     width: 16.6%;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0px 0px 10px 0px var(--color-shadow);
+    -webkit-box-shadow: 0px 0px 10px 0px var(--color-shadow);
+    -moz-box-shadow: 0px 0px 10px 0px var(--color-shadow);
 }
 
 .image img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
