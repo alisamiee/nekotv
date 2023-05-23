@@ -9,6 +9,7 @@ body {
     background-color: var(--color-background);
     font-family: Roboto, Ubuntu, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
     min-height: 100vh;
+    transition: background-color .5s ease-in-out;
 }
 
 #app {
